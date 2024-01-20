@@ -15,7 +15,7 @@ class ClientController{
     function getAll()
      {
         $resultData = $this->model->getAll();
-        require_once('./view/index.php');
+        require_once('./view/home.php');
         
 
      }

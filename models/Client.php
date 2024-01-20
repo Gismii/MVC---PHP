@@ -19,6 +19,8 @@ class Client extends Connect{
         $resultQuery = $sqlSelect->fetchAll();
         return $resultQuery;
     }
+
+    
 }
 
 ?>
